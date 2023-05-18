@@ -478,20 +478,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a7e31b2a24618439b91c90d1f44563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1909311595 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d13b0b4434e4fb44381e904d22719893, type: 3}
-  m_PrefabInstance: {fileID: 131275220}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1909311597
-MonoBehaviour:
+--- !u!95 &1862045853
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909311595}
+  m_GameObject: {fileID: 1862045849}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a7e31b2a24618439b91c90d1f44563, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 9000000, guid: d13b0b4434e4fb44381e904d22719893, type: 3}
+  m_Controller: {fileID: 9100000, guid: d3033bcc5315b8940bf1fee78e38aec7, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0

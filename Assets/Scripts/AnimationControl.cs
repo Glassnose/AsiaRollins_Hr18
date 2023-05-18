@@ -10,7 +10,7 @@ public class AnimationControl : MonoBehaviour
     void Start()
     {
         //Get a reference to the animator
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator> () ;
     }
 
     // Update is called once per frame
